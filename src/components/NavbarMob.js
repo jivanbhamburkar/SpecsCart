@@ -1,21 +1,20 @@
 import React from "react";
-import Cart from "../Images/Cart.png";
-import Fav from "../Images/Fav.png";
-import Home from "../Images/Home.png";
-import Profile from "../Images/Profile.png";
-import Search from "../Images/Search.png";
-import logo from "../Images/logo.png";
-import { FaBars } from "react-icons/fa"
+import Cart from "../images/Cart.png";
+import Fav from "../images/Fav.png";
+import Home from "../images/Home.png";
+import Profile from "../images/Profile.png";
+import Search from "../images/Search.png";
+import logo from "../images/Logo.png";
+import { FaBars } from "react-icons/fa";
 export function NavabarMob() {
   return (
     <div className="navbarMob">
       <div className="flexrow">
         <div>
-          <FaBars style={{fontSize: '30px', color:'grey'}}/>
+          <FaBars style={{ fontSize: "30px", color: "grey" }} />
         </div>
-        
-          <img src={logo} className="logo"></img>
-        
+
+        <img src={logo} className="logo"></img>
       </div>
       <div className="flexrow">
         <div>
