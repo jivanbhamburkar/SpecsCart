@@ -1,11 +1,10 @@
 import './App.css';
+import { Navabar } from './Components/Navbar';
 
 function App() {
   return (
     <>
-      <div>
-        Jivan
-      </div>
+      <Navabar />
     </>
   );
 }
